@@ -7,11 +7,9 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Blog Ivan Gzyk</title>
     </head>
     <body>
-        <?php
-        echo 'Blog em construção...';
-        ?>
+        <h1>Blog em construção...</h1>
     </body>
 </html>
