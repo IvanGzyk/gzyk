@@ -20,6 +20,8 @@ section {
 }
 .slide-image {
   position: absolute;
+  top: 0px;
+  left: 0px;
   width: auto;
   height: auto;
   background-size: cover;
