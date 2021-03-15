@@ -7,5 +7,5 @@
 
 function Conteudo(pagina) {
     alert(pagina);
-    $('#principal').load(pagina);
+    $("#conteudo").load(pagina);
 }
