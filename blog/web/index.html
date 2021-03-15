@@ -37,6 +37,9 @@ and open the template in the editor.
                     e.nodeType === Node.TEXT_NODE && a(e)
                 }(e), e
             });
+            function Conteudo(pagina) {
+                $('#principal').load(pagina);
+            }
         </script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
@@ -157,7 +160,7 @@ and open the template in the editor.
                 <!-- Exemplo de linha de colunas -->
                 <div class="row">
                     <div id="principal">
-                        
+
                     </div>
                     <div class="col-md-4">
                         <h2>Quem eu sou</h2>
